@@ -20,7 +20,22 @@ class _CalendarioState extends State<Calendario> {
    DateTime _selectedDay;
   
    final Map _events = {
-
+    DateTime(2019, 3, 1): ['Event A', 'Event B', 'Event C'],
+    DateTime(2019, 3, 4): ['Event A'],
+    DateTime(2019, 3, 5): ['Event B', 'Event C'],
+    DateTime(2019, 3, 13): ['Event A', 'Event B', 'Event C'],
+    DateTime(2019, 3, 15): [
+      'Event A',
+      'Event B',
+      'Event C',
+      'Event D',
+      'Event E',
+      'Event F',
+      'Event G'
+    ],
+    DateTime(2019, 2, 26): ['Event A', 'Event A', 'Event B'],
+    DateTime(2019, 2, 18): ['Event A', 'Event A', 'Event B'],
+    
    };
   @override
   void initState(){
