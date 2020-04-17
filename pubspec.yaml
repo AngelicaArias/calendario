@@ -76,7 +76,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-fonts:
-  - family: SpecialElite
-    fonts:
-      - asset: SpecialElite-Regular.ttf
+  fonts:
+    - family: SpecialElite
+      fonts:
+        - asset: fonts/SpecialElite-Regular.ttf

@@ -22,13 +22,13 @@ class GradientBack extends StatelessWidget {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            Color(0xFF00C853),
-            Color(0xFF69F0AE)
+            Colors.cyan[900],
+            Colors.greenAccent
           ],
-        begin: FractionalOffset(0.2, 0.0),
-        end: FractionalOffset(1.0, 0.6),
-             stops: [0.0, 0.6],
-             tileMode: TileMode.clamp
+        begin: FractionalOffset(0.0, 0.0),
+        end: FractionalOffset(0.5, 2.5),
+             stops: [0.0, 0.5],
+
         )
       ),
         /* child: Text(
